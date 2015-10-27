@@ -1,8 +1,7 @@
 # minimal-lightbox
 
-*This lightbox is a simplified and lighter version of the one made by [mshwery](https://github.com/mshwery/minimal-lightbox). All the credits goes to him.
 
-I really liked his lightbox, and I tried to make it ES5 compliant to reduce the size. The result is a 4kb minified js file (& ~1kb css), still super easy to use.*
+*This lightbox is a simplified and lighter version of the one made by [mshwery](https://github.com/mshwery/minimal-lightbox). All the credits goes to him. I really liked his lightbox, and I tried to make it ES5 compliant to reduce the size. The result is a 4kb minified js file (& ~1kb css), still super easy to use.*
 
 A minimal Medium.com-style lightbox for enlarging media using css transforms, scaling images from their position on a page
 
