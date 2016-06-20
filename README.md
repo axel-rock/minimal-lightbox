@@ -7,7 +7,7 @@ A minimal Medium.com-style lightbox for enlarging media using css transforms, sc
 
 ## Usage
 
-Currently, only img tags with `data-action=zoom` will be picked up on page load and bound to be zoomable. This module is dependent on classes/styles to produce the lightbox effect, so your mileage may vary on certain older browsers.
+Currently, only img tags with `data-action=zoom` or class `image-zoom` will be picked up on page load and bound to be zoomable. This module is dependent on classes/styles to produce the lightbox effect, so your mileage may vary on certain older browsers.
 
 You'll need to include the styles as well.
 
@@ -19,6 +19,8 @@ You'll need to include the styles as well.
 </head>
 <body>
   <img src='http://lorempixel.com/1000/400' data-action='zoom'/>
+  <!-- or -->
+  <img src='http://lorempixel.com/1000/400' class='image-zoom'/>
   
   <!-- include the package -->
   <script type="text/javascript" src="minimal-lightbox.js"></script>

@@ -120,7 +120,6 @@
 			}
 		}
 		this.removeZoomClass = function() {
-			console.log(this.element);
 			this.element.classList.remove('zooming');
 			this.element.classList.remove('zooming-in');
 			this.element.classList.remove('zooming-out');
@@ -254,7 +253,7 @@
 	 * bind to all elements with `data-action=zoom`
 	 */
 	document.addEventListener('DOMContentLoaded', function() {
-		var elements = document.querySelectorAll('[data-action=zoom]');
+		var elements = document.querySelectorAll('[data-action=zoom], .image-zoom');
 		for (var i = 0; i < elements.length; i++) {
 			var element = elements[i];
 			element.__zoomable__ = new Zoomable(element);

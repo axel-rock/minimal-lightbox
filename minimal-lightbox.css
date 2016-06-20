@@ -1,17 +1,17 @@
-[data-action=zoom] {
+[data-action=zoom], .image-zoom {
   cursor: zoom-in;
   transition: transform 250ms ease, width 100ms ease, background-image 250ms ease;
 }
 
-[data-action=zoom].zoomed,
+[data-action=zoom].zoomed, .image-zoom.zoomed, 
 .zoom-overlay {
   cursor: zoom-out;
 }
 
-[data-action=zoom].zoomed,
-[data-action=zoom].zooming {
-	z-index: 1000;
-	position: relative;
+[data-action=zoom].zoomed, .image-zoom.zoomed,
+[data-action=zoom].zooming, .image-zoom.zooming {
+  z-index: 1000;
+  position: relative;
 }
 
 .media-placeholder {
