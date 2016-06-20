@@ -28,4 +28,4 @@ You'll need to include the styles as well.
 </html>
 ```
 
-You can see it in action [on my blog](http://axelrock.fr/en/blog/2016-03-12-walk-in-stockholm)
+You can see it in action [on my blog](http://axelrock.fr/regarder-des-jeux-video/)
